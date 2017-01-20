@@ -3,18 +3,48 @@
 /* link the web font used for the level 1 heading here */
 
 /*////////// Global Styles //////////*/
-
 body {
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif;
 }
-
+ul{
+	padding: 0px;
+	margin: 0px;
+}
 .wrapper {
 	width: 960px;
 	margin: 0 auto;
 	background: #fff;
 	padding: 0 45px 20px;
 }
+h1{
+	color: rgb(156,172,167);
+}
+h2{
+	color: rgb(101,131,131);
+}
+/*
+section.press a{
+	display: block;
+	border: 2px solid rgb(156,172,167);
+}
+*/
+.image-grid{
+	list-style: none;
+}
 
-/* Write all remaining styles here */
+.image-grid li{
+	display: inline-block;
+	border: 4px solid rgb(156,172,167);
+}
+.image-grid li:hover{
+	border-color: rgb(101,131,131);
+}
+
+.image-grid li img{
+	max-width: 100%;
+}
+.footer{
+	text-align: right;
+}
