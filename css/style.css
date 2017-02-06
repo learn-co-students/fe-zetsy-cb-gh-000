@@ -90,3 +90,10 @@ p {
     clear: both;
     height: 0;
 }
+
+/* footer */
+footer {
+    text-align: right;
+    margin: 2em 0em;
+    color: rgba(93, 88, 75, 255);
+}
