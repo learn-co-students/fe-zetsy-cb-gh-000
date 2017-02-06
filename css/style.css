@@ -93,6 +93,7 @@ p {
 
 /* footer */
 footer {
+    font-size: 0.8em;
     text-align: right;
     margin: 2em 0em;
     color: rgba(93, 88, 75, 255);
