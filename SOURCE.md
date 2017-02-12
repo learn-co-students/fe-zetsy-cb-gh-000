@@ -1,29 +1,92 @@
-<!-- Level 1 header -->
-Zetsy
+/*////////////// Fonts //////////////*/
 
-<!-- featured image -->
-[necklace.jpg]
+@font-face {
+	font-family: 'Baskerville';
+	src: url(../fonts/Baskerville.ttc);
+}
 
-<!-- level 2 header -->
-About
+/*////////// Global Styles //////////*/
 
-<!-- paragraph -->
-Mary Wanesia is a jeweler, an Arizona native, and a member of the Navajo tribe. She specializes in creating beautiful, contemporary takes on the traditional adornments worn by the Navajo in ceremonies and in daily life.
+* {
+	padding: 0;
+	margin: 0;
+}
 
-<!-- paragraph -->
-Jewelry in the Americas has an ancient history. Beginning as far back as 8800 BCE, Paleo-Indians in the American Southwest drilled and shaped multicolored stones and shells into beads and pendants. Olivella shell beads, dating from 6000 BCE, were found in Nevada; bone, antler, and possibly marine shell beads from 7000 BCE were found in Russell Cave in Alabama; copper jewelry was traded from Lake Superior beginning in 3000 BCE; and stone beads were carved in Poverty Point in Louisiana in 1500 BCE. Learn more.
-<!-- Note: "Learn more" links to: http://en.wikipedia.org/wiki/Native_American_jewelry -->
+body {
+	background: #F3EBE9;
+	font-size: 100%;
+	font-family: 'Times New Roman', serif;
+}
 
-<!-- paragraph -->
-Mary's jewelry has received recognition and has been featured in the National Museum of the American Indian, The New York Times Style Magazine, and Sedona Monthly. The collection is sold across the United States and Europe and is carried by the retail stores of Bergdorf Goodman.
+.wrapper {
+	width: 960px;
+	margin: 0 auto;
+	background: #fff;
+	padding: 0 45px 20px;
+}
 
-<!-- level 2 header -->
-Press
+h1 {
+	padding-bottom: 10px;
+	margin: 0 0 5px;
+	font-size: 5em;
+	font-weight: normal;
+	font-family: 'Baskerville', serif;
+	border-bottom: 1px solid #ccc;
+}
 
-<!-- press images -->
-[nmai-logo.png]<!-- links to: http://nmai.si.edu -->
-[times-logo.png]<!-- links to: http://www.nytimes.com/pages/t-magazine/ -->
-[sedona-logo.png]<!-- links to: http://www.sedonamonthly.com -->
-[bergdorf-logo.png]<!-- links to: http://www.bergdorfgoodman.com/ -->
+h2 {
+	color: rgb(111,127,122);
+	font-size: 2em;
+}
 
-<!-- paragraph -->&copy; 2014 Zetsy, All Rights Reserved.
+p  {
+	color: #555;
+	font-size: 1em;
+	margin: 0 0 20px 0;
+}
+
+.small {
+	font-size: 0.8em;
+}
+
+/*////////// Section Styles //////////*/
+
+header a {
+	color: rgb(152,173,166);
+	text-decoration: none;
+}
+
+header a:hover {
+	color: rgb(111,127,122);
+}
+
+#featured img {
+	border: 5px rgb(152,173,166) solid;
+}
+
+#featured a {
+	color: #1783bb;
+	text-decoration: none;
+}
+
+#featured a:hover {
+	text-decoration: underline;
+}
+
+#press {
+	margin-bottom: 20px;
+}
+
+#press img {
+	border: 5px #ccc solid;
+	padding: 1px;
+}
+
+#press img:hover {
+	border: 5px rgb(111,127,122) solid;
+}
+
+footer {
+	text-align: right;
+	background: #fff;
+}
