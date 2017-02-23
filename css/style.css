@@ -1,13 +1,13 @@
 /*////////////// Fonts //////////////*/
 
 /* link the web font used for the level 1 heading here */
-
+@import url("../fonts/Baskville");
 /*////////// Global Styles //////////*/
 
-body {
-	background: #F3EBE9;
+body{
+	background: #F3EBE9 ;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif;
 }
 
 .wrapper {
@@ -18,3 +18,85 @@ body {
 }
 
 /* Write all remaining styles here */
+
+header a{
+	color: #98ACA6 ;
+	font-family: Baskerville;
+	text-decoration: none ;
+	font-size: 2.5em ;
+	line-height: 0 ;
+}
+
+header {
+  overflow: auto;
+	border-bottom: 1px solid #CCCCCC ;
+	margin-bottom: 5px ;
+}
+
+header a:hover {
+	color: #6F7F7A;
+}
+
+
+#main-image {
+	border: 5px solid #98ACA6;
+	width: 100% ;
+	box-sizing: border-box;
+}
+#main-image img {
+	width: 100% ;
+}
+
+.section-header {
+	color: #6F7F7A ;
+	font-size: 2em ;
+	font-family: "Times New Roman" ;
+}
+
+.section-paragraph {
+	color: #555555 ;
+	font-family: "Times New Roman" ;
+	font-size: 1em ;
+}
+.section-paragraph a {
+	color: #348EC1 ;
+	text-decoration: none ;
+}
+
+.section-paragraph a:hover {
+	color: #348EC1 ;
+	text-decoration: underline ;
+}
+
+
+.logo {
+	float:left;
+	border: 5px solid #CACACA;
+	margin-left: 5px ;
+	padding: 1px ;
+}
+
+.logo#first {
+	margin-left: 0px ;
+}
+
+.clearfix:after {
+	content: "." ;
+	display:block ;
+	clear:both ;
+	visibility: hidden;
+}
+
+.logo:hover
+{
+	border: 5px solid #6F7F7A ;
+}
+
+#copyright{
+	margin-bottom: 0 ;
+	display: block;
+	float:right;
+	color: #555555 ;
+	font-family: "Times New Roman" ;
+	font-size: 0.8em ;
+}
