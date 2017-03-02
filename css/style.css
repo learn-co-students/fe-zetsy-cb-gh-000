@@ -1,13 +1,27 @@
 /*////////////// Fonts //////////////*/
 
-/* link the web font used for the level 1 heading here */
+@import url('https://fonts.googleapis.com/css?family=Kanit');
 
 /*////////// Global Styles //////////*/
-
+h1{
+	font-family: 'Kanit';
+	color: grey;
+	font-size: 450%;
+}
+h2{
+	font-family: Georgia;
+	color: grey;
+	font-size: 200%;
+}
+p{
+	font-family: Georgia;
+	font-size: 20px;
+}
 body {
+	margin:0 auto;
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif;
 }
 
 .wrapper {
@@ -17,4 +31,14 @@ body {
 	padding: 0 45px 20px;
 }
 
-/* Write all remaining styles here */
+footer{
+	float: right;
+}
+img{
+	border: 5px solid grey;
+
+}
+
+img:hover{
+	border:5px solid #54626F;
+}
