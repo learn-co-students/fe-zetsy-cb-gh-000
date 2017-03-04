@@ -7,7 +7,7 @@
 body {
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif;
 }
 
 .wrapper {
@@ -18,3 +18,89 @@ body {
 }
 
 /* Write all remaining styles here */
+
+/*////////// Header //////////*/
+header h1 {
+	color: #91A69F;
+	font-size: 75px;
+	font-family: "Times New Roman", serif;
+	line-height: normal;
+	margin-bottom: 10px;
+}
+
+/*////////// Splash image //////////*/
+.splash img {
+	border: 5px solid #91A69F;
+}
+
+.splash hr {
+	color: #FAFFEF;
+	margin-bottom: 3px;
+}
+
+/*////////// Section //////////*/
+section h2 {
+	color: #737B77;
+	font-size: 35px;
+}
+
+section p {
+	color: #333B37;
+}
+
+/*////////// Columns Layout //////////*/
+.col-1 {
+	/*Width = 100% or auto, no need to specify*/
+}
+
+.col-2 {
+	float: left;
+	width: 74.5%;
+}
+
+.col-3 {
+	float: left;
+	width: 49%;
+}
+
+.col-4 {
+	float: left;
+	width: 23.5%;
+}
+
+
+[class*="col-"] {
+	margin-left: 2%;
+}
+
+.first {
+	margin: 0;
+}
+
+.clearfix:after {
+	clear: both;
+	content: ".";
+	display: block;
+	visibility: hidden;
+	height: 0;
+	line-height: 0;
+}
+
+/*//////////////////// MEDIA //////////////*/
+img, video, audio {
+	max-width: 100%;
+}
+
+/*//////////////////// IMG LINKS //////////////*/
+a img {
+	border: 5px solid #91A69F;
+}
+
+a:hover img, a:focus img, a:active img {
+	border: 5px solid #737B77;
+}
+
+/*//////////////////// FOOTER //////////////*/
+footer p {
+	float: right;
+}
