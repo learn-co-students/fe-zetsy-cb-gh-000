@@ -7,7 +7,7 @@
 body {
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif;
 }
 
 .wrapper {
@@ -18,3 +18,25 @@ body {
 }
 
 /* Write all remaining styles here */
+
+.copy-right {
+	text-align: right;
+}
+
+img {
+	border-style: solid;
+	border-width: 4px;
+	border-color: #98ADA6;
+}
+
+a img:hover {
+	border-color: #6F7F7A;
+}
+
+h1 {
+	font-size: 400%;
+}
+
+h1, h2 {
+	color: #6F7F7A;
+}
