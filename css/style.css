@@ -7,7 +7,7 @@
 body {
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif;
 }
 
 .wrapper {
@@ -15,6 +15,91 @@ body {
 	margin: 0 auto;
 	background: #fff;
 	padding: 0 45px 20px;
+	position: relative;
 }
 
 /* Write all remaining styles here */
+@font-face {
+	font-family: Baskerville;
+	src: url("../fonts/Baskerville.ttc");
+}
+
+header a {
+	color: #9aa;
+}
+
+header a:hover {
+	color: #658580;
+}
+
+img {
+	border: 5px solid #aba
+}
+
+header img {
+	border: 5px solid #9aa;
+	margin: 0 auto;
+	width: 100%;
+	box-sizing: border-box;
+}
+
+h1 {
+	padding: 0 0 10px ;
+	margin: 0 auto 4px;
+	font-family: Baskerville, serif;
+	font-size: 500%;
+	font-weight: lighter;
+	border-bottom: 1px solid #9aa;
+}
+
+h2 {
+	color: #788;
+	font-size: 200%;
+}
+
+p {
+	color: #666;
+}
+
+a {
+	text-decoration: none;
+}
+
+p a{
+	color: #26a;
+}
+
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	height: 0;
+	line-height: 0;
+}
+
+#links {
+	width: 100%;
+}
+
+#links img {
+	width: 24.625%;
+	display: block;
+	float: left;
+	margin-left: 0.5%;
+	box-sizing: border-box;
+}
+#links img:hover {
+	border-color: #658580;
+}
+
+#links img.first {
+	margin-left: 0;
+}
+
+#footer {
+	margin: 10px 0;
+	color: #344;
+	float: right;
+	font-size: small;
+}
