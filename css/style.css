@@ -1,20 +1,59 @@
 /*////////////// Fonts //////////////*/
 
 /* link the web font used for the level 1 heading here */
+<style>
+@import url('https://fonts.googleapis.com/css?family=Tinos');
+</style>
 
 /*////////// Global Styles //////////*/
+html, body {
+	margin: 0;
+}
+
+img {
+	border: 3px solid rgb(158, 172, 167);
+}
 
 body {
-	background: #F3EBE9;
+	/*background: #F3EBE9;*/
+	background: rgb(243, 235, 235);
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Tinos', serif;
+	color: rgb(110, 125, 125);
+}
+
+h1 {
+	color: rgb(158, 172, 167);
+	font-size: 5em;
+	padding: 10px;
+}
+
+.back {
+	padding: 0;
+	background: rgb(243, 235, 235);
 }
 
 .wrapper {
 	width: 960px;
 	margin: 0 auto;
-	background: #fff;
+	background: white;
 	padding: 0 45px 20px;
 }
 
-/* Write all remaining styles here */
+.footer {
+	/*display: inline-block;*/
+	position: relative;
+	left: 740px;
+}
+
+.link {
+	-webkit-transition: all 500ms ease-out 1s;
+  -moz-transition: all 500ms ease-out 1s;
+  -o-transition: all 500ms ease-out 1s;
+	transition: all .5s ease;
+}
+
+.link:hover {
+	border-color: black;
+	border-width: 10;
+}
