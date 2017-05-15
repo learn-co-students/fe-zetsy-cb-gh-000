@@ -17,4 +17,58 @@ body {
 	padding: 0 45px 20px;
 }
 
+img {
+	max-width: 100%;
+}
+
+footer p {
+	float: right;
+}
+
+.clearfix:after {
+	content: ".";
+	clear: both;
+	display: block;
+	visibility: hidden;
+	height: 0;
+	line-height: 0;
+}
+
+h1 {
+	transition: font-size 0.5s ease;
+	transition: color: 0.5s ease;
+	font-size: 3em;
+	color: #000;
+}
+
+h1:hover {
+font-size: 4em;
+	color: #678;
+}
+
+h2 {
+	transition: all 0.5s ease, padding 0.8s linear;
+	padding 20px;
+	color: #000;
+}
+
+h2:hover {
+	padding 40px;
+	color: #678;
+}
+
+section img {
+	transition: width: 0.5s ease;
+	background-color: #fff;
+}
+
+section img:hover {
+	background-color: #dee;
+}
+
+
+
+
+
+
 /* Write all remaining styles here */
