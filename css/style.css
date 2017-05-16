@@ -1,13 +1,17 @@
 /*////////////// Fonts //////////////*/
 
-/* link the web font used for the level 1 heading here */
+@font-face {
+	font-family: 'Baskerville';
+	src: url(http://learn-co-curriculum.github.io/fe-zetsy/fonts/Baskerville.ttc);
+}
 
 /*////////// Global Styles //////////*/
 
 body {
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif;
+
 }
 
 .wrapper {
@@ -17,4 +21,68 @@ body {
 	padding: 0 45px 20px;
 }
 
+h1 {
+	font-size: 5em;
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 10px;
+	margin-bottom: 5px;
+	font-weight: normal;
+	font-family: 'Baskerville', serif;
+}
+
+h2 {
+	color: #6F7F7A;
+	font-size: 2em;
+}
+
+p {
+	color: #555;
+	font-size: 1em;
+	margin: 0 0 20px 0;
+}
+
+header a {
+	text-decoration: none;
+	color: #98ADA6;
+}
+
+.small {
+	font-size: 0.8em;
+}
+
+footer {
+	text-align: right;
+	background: #fff;
+}
+
+#press img {
+	border: 5px solid #ccc;
+	padding: 1px;
+}
+
+#featured img {
+	border: 5px solid #98ADA6;
+}
+
+#press {
+	margin-bottom: 20px;
+}
+
 /* Write all remaining styles here */
+
+header a:hover {
+	color: rgb(111,127,122);
+}
+
+#press img:hover {
+	color: rgb(111,127,122);
+}
+
+#featured a {
+	color: #1783bb;
+	text-decoration: none;
+}
+
+#featured a:hover {
+	text-decoration: underline;
+}
