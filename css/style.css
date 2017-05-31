@@ -1,13 +1,16 @@
 /*////////////// Fonts //////////////*/
 
 /* link the web font used for the level 1 heading here */
-
+@font-face {
+	font-family: 'Baskerville';
+	src: url(../fonts/Baskerville.ttc);
+}
 /*////////// Global Styles //////////*/
 
 body {
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif;
 }
 
 .wrapper {
@@ -18,3 +21,66 @@ body {
 }
 
 /* Write all remaining styles here */
+h1 {
+	margin: 0 0 5px;
+	font-family: 'Baskerville', serif;
+	font-size: 5em;
+	font-weight: normal;
+	padding-bottom: 10px;
+	color: rgb(136, 151, 146);
+	border-bottom: 1px solid #ccc;
+}
+
+img.hero-image {
+	border: 3px solid rgb(136, 151, 146);
+}
+
+h2 {
+	color: rgb(105, 110, 103);
+	font-size: 2em;
+}
+
+p {
+	font-size: 1em;
+	color: rgb(60, 63, 86);
+}
+
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	height: 0px;
+	line-height: 0px;
+}
+
+footer {
+	display: block;
+	width: 100%;
+	margin: 0 0 20px 0;
+}
+
+footer p {
+	text-align: right;
+	font-size: 0.75em;
+}
+
+img.press {
+	width: 100%;
+	height: 100%;
+}
+
+.wiki a {
+	color: #1783bb;
+	text-decoration: none;
+}
+
+section.press a {
+	margin-right: 7px;
+	border: 3px solid #ccc;
+	display: inline-block;
+}
+
+section.press a:hover {
+	border: 3px solid rgb(136, 151, 146);
+}
