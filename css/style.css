@@ -21,9 +21,10 @@ body {
 /* Write all remaining styles here */
 h1 {
 	font-family: 'Libre Baskerville', serif; /*///////// FIX FONT /////////*/
-	font-size: 3.5em;
-	font-style: italic;
-	color: #99ADA5
+	font-size: 3em;
+	font-weight: 200;
+	color: #99ADA5;
+	padding-top: 20px;
 }
 
 h2 {
