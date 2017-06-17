@@ -21,21 +21,35 @@ body {
 /* Write all remaining styles here */
 h1 {
 	font-family: 'Libre Baskerville', serif; /*///////// FIX FONT /////////*/
-	font-size: 3.5em;
+	font-size: 4em;
 	font-weight: 200;
 	color: #99ADA5;
 	padding-top: 20px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #CACACA;
+	/* set display property? */
 }
 
 h1 + img {
 	 border: 5px solid #9BADA5;
+	 /* set display property? */
 }
 
 h2 {
+	font-size: 2em;
 	color: #717B74;
 }
 
+#press img {
+	border: 5px solid #CBCBCB;
+}
+
+#press img:hover {
+	border: 5px solid #70817A;
+}
+
 footer {
+	font-size: 0.8em;
 	float: right;
 }
 
