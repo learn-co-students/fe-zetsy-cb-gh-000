@@ -51,8 +51,6 @@ footer {
 	float: right;
 }
 
-
-
 .clearfix:after {
 	content: ".";
 	display: block;
