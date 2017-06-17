@@ -24,15 +24,13 @@ h1 {
 	font-size: 4em;
 	font-weight: 200;
 	color: #99ADA5;
-	padding-top: 20px;
-	padding-bottom: 20px;
+	margin-bottom: 5px;
+	padding: 5px 0;
 	border-bottom: 1px solid #CACACA;
-	/* set display property? */
 }
 
 h1 + img {
 	 border: 5px solid #9BADA5;
-	 /* set display property? */
 }
 
 h2 {
