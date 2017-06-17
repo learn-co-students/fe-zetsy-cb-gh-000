@@ -21,10 +21,14 @@ body {
 /* Write all remaining styles here */
 h1 {
 	font-family: 'Libre Baskerville', serif; /*///////// FIX FONT /////////*/
-	font-size: 3em;
+	font-size: 3.5em;
 	font-weight: 200;
 	color: #99ADA5;
 	padding-top: 20px;
+}
+
+h1 + img {
+	 border: 5px solid #9BADA5;
 }
 
 h2 {
@@ -34,6 +38,8 @@ h2 {
 footer {
 	float: right;
 }
+
+
 
 .clearfix:after {
 	content: ".";
