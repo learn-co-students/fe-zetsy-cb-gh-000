@@ -24,7 +24,7 @@ body {
 
 h1 {
 	font-family: Baskerville, serif;
-	font-size: 80px;
+	font-size: 5em;
 	font-weight: normal;
 	border-bottom: 1px #CCCCCC solid;
 	padding-bottom: 10px;
@@ -43,12 +43,14 @@ h1 a:hover {
 }
 
 h2 {
-	font-size: 32px;
+	font-size: 2em;
 	color: #6F7F7A;
 }
 
 p {
+	font-size: 1em;
 	color: #555555;
+	margin-bottom: 20px
 }
 
 a {
@@ -76,5 +78,5 @@ img:hover {
 
 footer {
 	text-align: right;
-	font-size: 12px;
+	font-size: 0.8em;
 }
