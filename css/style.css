@@ -1,20 +1,61 @@
-/*////////////// Fonts //////////////*/
+/* FONTS */
 
-/* link the web font used for the level 1 heading here */
+@import url('https://fonts.googleapis.com/css?family=Baskerville');
 
-/*////////// Global Styles //////////*/
+
+/* GLOBAL VARIABLES*/
 
 body {
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif;
 }
 
 .wrapper {
 	width: 960px;
 	margin: 0 auto;
 	background: #fff;
-	padding: 0 45px 20px;
+	padding: 1px 45px 20px;
 }
 
-/* Write all remaining styles here */
+h1 {
+	color: rgb(152,173,166);
+	font-family: 'Baskerville', serif;
+	font-size: 80px;
+	margin-top: -5px;
+	margin-bottom: -5px;
+}
+
+h2 {
+	font-size: 33px;
+	color: rgb(111,127,122);
+}
+
+p {
+	color: #555;
+  margin: 0 0 20px 0;
+}
+
+/* SECTION STYLES */
+
+#zesty-hr {
+	color: #fff;
+}
+
+#necklace {
+	border: 4px rgb(152,173,166) solid;
+}
+
+.press-img {
+	border: 5px #ccc solid;
+	padding: 1px;
+}
+
+.press-img:hover {
+	border: 5px rgb(152,173,166) solid;
+}
+
+#copyright {
+	text-align: right;
+	font-size: 80%;
+}
