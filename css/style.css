@@ -1,4 +1,6 @@
 /*////////////// Fonts //////////////*/
+@import url(http://fonts.googleapis.com/css?family=Elsie+Swash+Caps:400,900);
+@import url(http://fonts.googleapis.com/css?family=Clicker+Script);
 
 /* link the web font used for the level 1 heading here */
 
@@ -7,7 +9,7 @@
 body {
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif;
 }
 
 .wrapper {
@@ -18,3 +20,134 @@ body {
 }
 
 /* Write all remaining styles here */
+*{
+	box-sizing: border-box;
+}
+
+#header{
+	padding: 20px;
+	background: #ccc;
+
+
+}
+
+h2{
+	color: #aaa;
+}
+
+a:link{
+	text-decoration: none;
+
+}
+
+#test{
+	width: 100%;
+	padding: 10px;
+	background: #aaa;
+	display: ;
+}
+
+#necklace {
+	width: 100%;
+	border: 10px;
+	border-color: #ddd ;
+	border-style: solid;
+}
+
+div .boxes{
+
+	/*border-color: #ddd;*/
+	margin: 0 auto;
+	width: 100%;
+}
+
+.boxes img{
+	width:100%;
+
+
+}
+
+#box1{
+
+	width: 23%;
+	float: left;
+	border-style: solid;
+	border-color: #aaa;
+}
+
+#box2{
+	margin-left: 2%;
+	float: left;
+	width: 23%;
+	border-style: solid;
+	border-color: #aaa;
+
+}
+
+#box3{
+	margin-left: 2%;
+	float: left;
+	width: 23%;
+	border-style: solid;
+	border-color: #aaa;
+}
+
+#box4{
+	margin-left: 2%;
+	float: left;
+	width: 23%;
+	border-style: solid;
+	border-color: #aaa;
+}
+
+#box1:hover{
+
+		border-style: solid;
+		border-color: black;
+}
+
+#box2:hover{
+
+		border-style: solid;
+		border-color: black;
+}
+#box3:hover{
+
+		border-style: solid;
+		border-color: black;
+}
+
+#box4:hover{
+
+		border-style: solid;
+		border-color: black;
+}
+
+
+[id*="box"]{
+	background-color: inherit;
+}
+
+
+
+.clearfix:after{
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	height: 0;
+	line-height: 0;
+}
+
+footer p{
+	display: inline-block;
+	position: relative;
+	float: right;
+
+	/*margin-top: 5px;
+	margin-right: 0px;
+	*/
+
+
+
+}
