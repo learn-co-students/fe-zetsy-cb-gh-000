@@ -7,14 +7,52 @@
 body {
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif;
+	margin: 0;
 }
 
 .wrapper {
+	height: auto;
 	width: 960px;
 	margin: 0 auto;
 	background: #fff;
 	padding: 0 45px 20px;
 }
 
-/* Write all remaining styles here */
+header {
+	margin-bottom: 5px;
+}
+header a {
+
+	color: #98ADA6;
+	font-size: 5em;
+	font-style: bold;
+
+}
+
+h2 {
+	color: #6F7F7A;
+	font-size: 2em;
+}
+
+a {
+	text-decoration: none;
+}
+header a:hover {
+	color: #6F7F7A;
+}
+
+footer p {
+	text-align: right;
+	font: normal 0.75em serif;
+}
+
+#man img {
+	border: 5px solid #98ADA6;
+}
+#mac img:hover {
+	border: 5px solid #98ADA6;
+}
+#mac img {
+	border: 5px solid #CCCCCC;
+}
