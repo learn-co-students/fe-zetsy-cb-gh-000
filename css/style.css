@@ -7,7 +7,7 @@
 body {
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif;
 }
 
 .wrapper {
@@ -18,3 +18,14 @@ body {
 }
 
 /* Write all remaining styles here */
+.logo {
+	font-size: 50px;
+	color: rgb(31, 164, 164);
+}
+.rights{
+	text-align: center;
+}
+
+.press > a > img {
+	border: 5px solid rgb(48, 193, 188);
+}
