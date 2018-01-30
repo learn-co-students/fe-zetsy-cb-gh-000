@@ -1,5 +1,8 @@
 /*////////////// Fonts //////////////*/
-
+@font-face {
+	font-family: 'Baskerville';
+	src: url(../fonts/Baskerville.ttc);
+}
 /* link the web font used for the level 1 heading here */
 
 /*////////// Global Styles //////////*/
@@ -7,7 +10,7 @@
 body {
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif;
 }
 
 .wrapper {
@@ -18,3 +21,95 @@ body {
 }
 
 /* Write all remaining styles here */
+
+h1{
+	padding-bottom: 10px;
+	margin: 0 0 5px;
+	font-size: 5em;
+	font-weight: normal;
+	font-family: 'Baskerville', serif;
+	border-bottom: 1px solid #ccc;
+}
+
+h2{
+	font-size: 2em;
+	color: rgb(111,127,122);
+}
+
+.pequeña{
+	font-size: 0.8em;
+}
+
+p{
+	color: #555;
+	font-size: 1em;
+	margin: 0 0 20px 0;
+}
+
+header a{
+	color: rgb(152,173,166);
+	text-decoration: none;
+	-webkit-transition: .3s ease-out;
+	-moz-transition: .3s ease-out;
+	-o-transition: .3s ease-out;
+	transition: .3s ease-out;
+}
+
+header a:hover{
+	color: rgb(111,127,122);
+	-webkit-transition: .3s ease-out;
+	-moz-transition: .3s ease-out;
+	-o-transition: .3s ease-out;
+	transition: .3s ease-out;
+}
+
+#about img{
+	border: 5px solid  rgb(152,173,166);
+	-webkit-transition: .3s ease-out;
+	-moz-transition: .3s ease-out;
+	-o-transition: .3s ease-out;
+	transition: .3s ease-out;
+}
+
+#about img:hover{
+	border: 5px solid  rgb(111,127,122);
+	-webkit-transition: .3s ease-out;
+	-moz-transition: .3s ease-out;
+	-o-transition: .3s ease-out;
+	transition: .3s ease-out;
+}
+
+#about a{
+	color: #1783bb;
+	text-decoration: none;
+}
+
+#about a:hover{
+	text-decoration: underline;
+}
+
+#press{
+	margin-bottom: 20px;
+}
+
+#press img{
+	border: 5px solid  #ccc;
+	padding: 1px;
+	-webkit-transition: .3s ease-out;
+	-moz-transition: .3s ease-out;
+	-o-transition: .3s ease-out;
+	transition: .3s ease-out;
+}
+
+#press img:hover{
+	border: 5px solid  rgb(111,127,122);
+	-webkit-transition: .3s ease-out;
+	-moz-transition: .3s ease-out;
+	-o-transition: .3s ease-out;
+	transition: .3s ease-out;
+}
+
+footer{
+	text-align: right;
+	background: #fff;
+}
