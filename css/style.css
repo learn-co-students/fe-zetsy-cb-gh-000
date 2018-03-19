@@ -67,6 +67,9 @@ p {
 }
 
 #press img {
+  -webkit-transition: border 0.5s ease;
+  -moz-transition: border 0.5s ease;
+  transition: border 0.5s ease;
   border: 5px solid #ccc;
   padding: 1px;
 }
