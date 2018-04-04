@@ -1,6 +1,5 @@
 /*////////////// Fonts //////////////*/
 
-/* link the web font used for the level 1 heading here */
 
 /*////////// Global Styles //////////*/
 
@@ -17,4 +16,29 @@ body {
 	padding: 0 45px 20px;
 }
 
-/* Write all remaining styles here */
+h1 {
+	font-family: 'Libre Baskerville', serif;
+	color: rgb(152,173,166);
+	font-size: 5em;
+	font-weight: bold;
+	padding-bottom: 10px;
+	margin: 0 0 5px;
+	border-bottom: 1px solid #ccc;
+}
+h2 {
+	font-family: 'Libre Baskerville', serif;
+	color: rgb(111,127,122);
+	font-size: 2em;
+
+}
+
+p {
+	color: rgb(111,127,122);
+}
+#copyright {
+	float: right;
+}
+
+#featuredImg {
+	border: 5px rgb(152,173,166) solid;
+}
