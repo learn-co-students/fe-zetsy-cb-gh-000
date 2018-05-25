@@ -7,7 +7,12 @@
 body {
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif;
+	color: rgb(93,105,102);
+}
+
+#main {
+	border: 5px solid rgb(137,153,148);
 }
 
 .wrapper {
@@ -15,6 +20,10 @@ body {
 	margin: 0 auto;
 	background: #fff;
 	padding: 0 45px 20px;
+}
+
+ #copyright {
+	float: right;
 }
 
 /* Write all remaining styles here */
