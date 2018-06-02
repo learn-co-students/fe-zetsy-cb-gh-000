@@ -7,7 +7,7 @@
 body {
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif;
 }
 
 .wrapper {
@@ -17,4 +17,11 @@ body {
 	padding: 0 45px 20px;
 }
 
+.border {
+  border: 1px black;
+}
+
+h1 {
+  color: #ccc;
+}
 /* Write all remaining styles here */
