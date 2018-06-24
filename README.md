@@ -11,7 +11,7 @@ This lab challenges you asks you to build an Etsy clone, 'Zetsy', by writing
 your own HTML & CSS from scratch to match the mockup image:
 
 
-## What We Want:
+## What Wed Want:
 
 <p align="center">
 <img src="https://curriculum-content.s3.amazonaws.com/fewds-css/fe-zetsy-complete.jpg">
