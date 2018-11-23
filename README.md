@@ -17,7 +17,7 @@ your own HTML & CSS from scratch to match the mockup image:
 <img src="https://curriculum-content.s3.amazonaws.com/fewds-css/fe-zetsy-complete.jpg">
 </p>
 
-
+pass
 ## Instructions
 
 1. Use the text and suggested images listed in `SOURCE.md` to fill in the content for `index.html`
