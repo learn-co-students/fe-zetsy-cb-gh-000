@@ -7,7 +7,7 @@
 body {
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif;
 }
 
 .wrapper {
@@ -16,5 +16,27 @@ body {
 	background: #fff;
 	padding: 0 45px 20px;
 }
-
+#necklace{
+  border:5px solid rgb(143,169,161);
+}
+#text_color{
+  color:#999;
+}
+#links:hover{
+  border:3px solid rgb(99,119,113);
+}
+#links{
+	border:3px solid rgb(204,204,204);
+}
+.last{
+  text-align: right;
+	color:#808080;
+	font-size:0.8em;
+}
+#new_link{
+	text-decoration: none;
+}
+#new_link:hover{
+	text-decoration: underline;
+}
 /* Write all remaining styles here */
