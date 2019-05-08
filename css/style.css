@@ -34,14 +34,14 @@ section p {
 }
 
 .boxes img{
-	width: 22%;
-	margin-right: 10px;
+	width: 23%;
+	margin-right: 5px;
 	float: left;
 	border: 5px solid #ccc;
 }
 
 .last img{
-	width: 22%;
+	width: 23%;
 	float: left;
 	border: 5px solid #ccc;
 }
@@ -54,4 +54,7 @@ section p {
 
 footer {
 	clear: both;
+	text-align: right;
+	right: 0px;
+	font-size: 75%;
 }
