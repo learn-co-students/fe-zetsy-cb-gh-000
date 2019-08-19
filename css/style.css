@@ -7,7 +7,7 @@
 body {
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif;
 }
 
 .wrapper {
@@ -18,3 +18,25 @@ body {
 }
 
 /* Write all remaining styles here */
+h1
+{
+	color: #777;
+	font-size: 3em;
+}
+h2
+{
+	color: #777;
+	font-size: 1.5em;
+}
+#necklace
+{
+	border: 4px solid #777;
+}
+.press
+{
+	border: 5px solid #dfdcdb;
+}
+.press:hover
+{
+	border: 5px solid #777;
+}
