@@ -7,14 +7,75 @@
 body {
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif;
 }
 
 .wrapper {
-	width: 960px;
+	width: 1080px;
 	margin: 0 auto;
 	background: #fff;
 	padding: 0 45px 20px;
 }
 
 /* Write all remaining styles here */
+
+/* //////// LAYOUT ////////*/
+* {
+	box-sizing: border-box;
+}
+
+h2 {
+	font-size: 38px;
+	color: rgb(152,173,166);
+}
+
+h1 a {
+	font-size: 70px;
+	color: rgb(152,173,166);
+	text-decoration: none;
+	margin-bottom: 0;
+	transition: color 0.5s linear ;
+}
+ h1 a:hover {
+ 	color: rgb(55,55,55);
+ }
+#featured-image {
+	padding: 0;
+}
+img {
+	width: 100%;
+	border: 5px solid rgb(152,173,166);
+	margin: 0;
+}
+#press:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	height: 0;
+	line-height: 0;
+}
+
+.col {
+	display: block;
+	width: 24.25%;
+	float: left;
+	margin-right: 1%;
+}
+.in_img {
+	border: 5px solid rgb(204,204,204);
+	transition: border 0.5s linear;
+	}
+.in_img:hover {
+	border: 5px solid rgb(55,55,55);
+}
+
+.small {
+	text-align: right;
+}
+.last {
+	margin-right: 0;
+}
+.first {
+	margin-left: 0:
+}
